@@ -1,0 +1,35 @@
+body{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+.arrow{
+    height: 50px;width: 50px;
+    cursor: pointer;
+}
+.container{
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.slider{
+    display: flex;
+    /* overflow: hidden; */
+    transition: all;
+    transition-duration: 1s;
+}
+.frame{
+    box-shadow: -2px 2px 2px pink;
+    height: 80vh;
+    width: 800px;
+    overflow: hidden;
+}
+.images{
+    width: 800px;
+    height: 100vh;
+    object-fit: cover;
+}
